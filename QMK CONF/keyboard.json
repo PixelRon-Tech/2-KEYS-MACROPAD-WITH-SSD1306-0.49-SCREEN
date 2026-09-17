@@ -1,0 +1,49 @@
+{
+    "manufacturer": "Noname",
+    "keyboard_name": "minipad",
+    "maintainer": "PixelRon",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "development_board": "promicro_rp2040",
+    "url": "https://github.com",
+    
+    "matrix_pins": {
+        "direct": [
+            ["GP7", "GP6"]
+        ]
+    },
+
+    "oled": {
+        "driver": "SSD1306"
+    },
+
+    "i2c": {
+        "sda_pin": "GP4",
+        "scl_pin": "GP5"
+    },
+
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "matrix":[0, 0],
+                    "x": 0,
+                    "y": 0,
+                    "label": "SPACE"
+                },
+                {
+                    "matrix":[0, 1],
+                    "x": 1,
+                    "y": 0,
+                    "label": "UP"
+                }
+            ]
+        }
+    }
+}
