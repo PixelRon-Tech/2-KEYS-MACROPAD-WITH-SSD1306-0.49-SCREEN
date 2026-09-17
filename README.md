@@ -43,15 +43,15 @@ A small macropad featuring two mechanical keys and a tiny OLED screen. It can be
 
 ### Macropad
 
-![Macropad](https://github.com/PixelRon-Tech/2-KEYS-MACROPAD-WITH-SSD1306-0.49-SCREEN/blob/2fa9100555c7a4e40e201afd02cd9fed39e04540/Macropad.jpg)
+![Macropad](https://github.com/PixelRon-Tech/2-KEYS-MACROPAD-WITH-SSD1306-0.49-SCREEN/blob/9cfb7bfda4ade4c2f9c19727545a4a5cb02de8e3/Macropad.jpg)
 
 ### Macropad — Another View
 
-![Macropad1](https://github.com/PixelRon-Tech/2-KEYS-MACROPAD-WITH-SSD1306-0.49-SCREEN/blob/2fa9100555c7a4e40e201afd02cd9fed39e04540/Macropad1.jpg)
+![Macropad1](https://github.com/PixelRon-Tech/2-KEYS-MACROPAD-WITH-SSD1306-0.49-SCREEN/blob/9cfb7bfda4ade4c2f9c19727545a4a5cb02de8e3/Macropad1.jpg)
 
 ### Display Work
 
-![DisplayWork](https://github.com/PixelRon-Tech/2-KEYS-MACROPAD-WITH-SSD1306-0.49-SCREEN/blob/2fa9100555c7a4e40e201afd02cd9fed39e04540/Display%20Work.jpg)
+![DisplayWork](https://github.com/PixelRon-Tech/2-KEYS-MACROPAD-WITH-SSD1306-0.49-SCREEN/blob/9cfb7bfda4ade4c2f9c19727545a4a5cb02de8e3/DisplayWork.jpg)
 
 ## Setup
 
