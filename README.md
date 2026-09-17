@@ -17,6 +17,7 @@ A small macropad featuring two mechanical keys and a tiny OLED screen. It can be
 * **SSD1306 0.49" OLED screen**
 * **2× Brown Cherry MX-style switches**
 * Custom-made keycaps and case (3D printed)
+* 4x M3X13 Allen Socket Head Screws
 
 ## Pinout
 
