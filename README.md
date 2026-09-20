@@ -10,12 +10,13 @@ A small macropad featuring two mechanical keys and a tiny OLED screen. It can be
 * Custom 3D-printed case and keycaps
 * QMK firmware support
 * Fully customizable key bindings and pin layout
+* CUSTOM BINDING AND MACROS VIA BROWSER APP
 
 ## Components
 
 * **RP2040-Zero**
 * **SSD1306 0.49" OLED screen**
-* **2× Brown Cherry MX-style switches**
+* **2× Brown Cherry MX-style switches (or any others but not hall effect one)**
 * Custom-made keycaps and case (3D printed)
 * 4x M3X13 Allen Socket Head Screws
 
@@ -71,7 +72,7 @@ If you just want to use the macropad without changing anything:
 
 ### 2. Compile Your Own QMK Firmware
 
-If you want to change the key bindings, pin layout, or other components, you can modify the firmware in the `minipad` folder.
+If you want to change components, you can modify the firmware in the `minipad` folder.
 
 #### Requirements
 
@@ -94,8 +95,13 @@ If you want to change the key bindings, pin layout, or other components, you can
 4. Compile the firmware using:
 
    ```bash
+   qmk compile -kb minipad -km via
+   ```
+*OR
+   ```bash
    qmk compile -kb minipad -km default
    ```
+*If you don't want to make binds from the app if you dont want to deal with "minipad.json" (Step 9)
 
 5. Wait for the compilation to finish.
 
@@ -105,6 +111,12 @@ If you want to change the key bindings, pin layout, or other components, you can
 
 8. Drag and drop the `.uf2` file onto the RP2040-Zero drive.
 
+9. If you want to setup keybinds you will need to enter official VIA site (https://www.usevia.app/)
+
+10. Enter "Design Tab" and past "minipad.json" from minipad folder in to this site.
+
+11. Then plug in macropad, choose device from pop-up window.
+ 
 And you're ready to go!
 
 ## 3D-Printed Case
@@ -114,7 +126,9 @@ You can also print the case included in this repository.
 * The case and keycaps are custom-designed for this macropad.
 * Some parts may need a little sanding.
 * After sanding, the parts should fit together properly.
-
+* Its also has an enclosure that used to tilt the macropad and hide the seams
+* ⚠️ IMPORTANT: If you will use enclosure you will be not able to gently remove macropad from it.
+  
 ## Firmware
 
 This project uses **QMK Firmware**.
