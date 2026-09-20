@@ -63,6 +63,11 @@ There are two ways to get the macropad working.
 
 If you just want to use the macropad without changing anything:
 
+There is two version of the firmware:
+1.`minipad_no_VIA_feature.uf2` Without Via app configuration feature basic SPACE and UP keys.
+2.`minipad_no_VIA_feature.uf2` With Via app configuration feature.
+
+**Installation Steps.**
 1. Download the `.uf2` firmware file from this repository.
 2. Connect your RP2040-Zero in bootloader mode.
 3. Drag and drop the `.uf2` file onto the RP2040-Zero drive.
