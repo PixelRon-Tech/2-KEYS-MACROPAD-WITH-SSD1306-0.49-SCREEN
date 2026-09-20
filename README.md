@@ -63,9 +63,10 @@ There are two ways to get the macropad working.
 
 If you just want to use the macropad without changing anything:
 
-There is two version of the firmware:
-1.`minipad_no_VIA_feature.uf2` Without Via app configuration feature basic SPACE and UP keys.
-2.`minipad_no_VIA_feature.uf2` With Via app configuration feature.
+There is two version of the firmware.
+
+1. `minipad_no_VIA_feature.uf2` Without VIA app configuration feature basic SPACE and UP keys.
+2. `minipad_no_VIA_feature.uf2` With VIA app configuration feature.
 
 **Installation Steps.**
 1. Download the `.uf2` firmware file from this repository.
