@@ -1,5 +1,6 @@
 #pragma once
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 4
 #define I2C_DRIVER I2CD0
 
 // We switch pins GP4 and GP5 to the mode of operation with the I2C0 block

@@ -1,0 +1,17 @@
+{
+  "name": "minipad",
+  "vendorId": "0x0108",
+  "productId": "0x239A",
+  "matrix": {
+    "rows": 1,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,1",
+        "0,0"
+      ]
+    ]
+  }
+}
