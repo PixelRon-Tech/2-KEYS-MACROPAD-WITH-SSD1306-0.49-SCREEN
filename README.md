@@ -67,7 +67,7 @@ If you just want to use the macropad without changing anything:
 2. Connect your RP2040-Zero in bootloader mode.
 3. Drag and drop the `.uf2` file onto the RP2040-Zero drive.
 4. Connect the display and keys according to the pinout above.
-5. If you want to use VIA binding app you will need to put "minipad.json" in to Design Tab (Method 2, Step 9 to 11)   
+5. If you want to use VIA binding app you will need to put `minipad.json` in to Design Tab (Method 2, Step 9 to 11)   
 
 **Make sure all connections are correct, or the macropad may not work properly.**
 
@@ -98,7 +98,7 @@ If you want to change components, you can modify the firmware in the `minipad` f
    ```bash
    qmk compile -kb minipad -km via
    ```
-*OR
+*OR (NONE VIA VERSION)
    ```bash
    qmk compile -kb minipad -km default
    ```
@@ -114,7 +114,7 @@ If you want to change components, you can modify the firmware in the `minipad` f
 
 9. If you want to setup keybinds you will need to enter official VIA site (https://www.usevia.app/)
 
-10. Enter "Design Tab" and past "minipad.json" from minipad folder in to this site.
+10. Enter "Design Tab" and past `minipad.json` from minipad folder in to this site.
 
 11. Then plug in macropad, choose device from pop-up window.
  
