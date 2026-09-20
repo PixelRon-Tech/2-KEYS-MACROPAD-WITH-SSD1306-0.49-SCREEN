@@ -67,7 +67,7 @@ If you just want to use the macropad without changing anything:
 2. Connect your RP2040-Zero in bootloader mode.
 3. Drag and drop the `.uf2` file onto the RP2040-Zero drive.
 4. Connect the display and keys according to the pinout above.
-5. If you want to use VIA binding app you will need to put "minipad.json" in to Design Tab (Method 2, Step 9 to 11)
+5. If you want to use VIA binding app you will need to put "minipad.json" in to Design Tab (Method 2, Step 9 to 11)   
 
 **Make sure all connections are correct, or the macropad may not work properly.**
 
@@ -119,6 +119,15 @@ If you want to change components, you can modify the firmware in the `minipad` f
 11. Then plug in macropad, choose device from pop-up window.
  
 And you're ready to go!
+
+## ⚠️ VIA Notice
+
+If you use the **VIA app on a different device** to remap the keys, you will need to import the `minipad.json` file again.
+
+The keyboard is **not officially added to VIA's database**, so VIA will not automatically recognize its layout.
+
+Simply load the `minipad.json` file into VIA before trying to remap the keys.
+
 
 ## 3D-Printed Case
 
